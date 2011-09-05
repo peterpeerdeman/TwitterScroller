@@ -1,0 +1,6 @@
+TwitterScroller HTML5 app
+Author: Peter Peerdeman
+Date: September 2011
+
+This small html5 app uses javascript to render public timeline tweets onto
+the HTML5 canvas and animate them in a scrolling fashion.
