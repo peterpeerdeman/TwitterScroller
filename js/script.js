@@ -56,8 +56,8 @@ $(document).ready(function() {
     };
 
     function getTweets() {
-        Strobe.ajax({
-            url: "api.twitter.com/statuses/public_timeline.json",
+        $.ajax({
+            url: "../proxy/twitter/?option=user",
             success: function(json, status, xhr) { 
                 /* handle success */ 
                 json.forEach(function(tweet) {
